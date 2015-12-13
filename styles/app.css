@@ -1,0 +1,45 @@
+@font-face
+{
+	font-family: 'IM Fell English SC';
+	src: url("../Media/IM_Fell_English_SC.ttf");
+}
+h2
+{
+	font-family: "IM Fell English SC";
+}
+body
+{
+	background-image: url("../Media/backimage.jpg");
+}
+.plus
+{
+	background-image: url("../Media/Plus.png");
+	width: 40px;
+	height: 40px;
+	background-size: 32px 32px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+	background-color: transparent;
+}
+
+.minus
+{
+	background: url("../Media/Minus.png");
+	width: 40px;
+	height: 40px;
+	background-size: 32px 32px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+}
+.dice
+{
+	background: url("../Media/Dice.png");
+	width: 70px;
+	height: 70px;
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+}

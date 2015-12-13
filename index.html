@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>"Magic: The Gathering Point Counter"</title>
+    <meta name="description" content="A health and point tracking app for Magic: the Gathering.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles/app.css">
+	<script>
+	</script>
+  </head>
+<body>
+	<script type = "text/javascript" src = "main.js"></script>	
+	<table width = "75%" align = "center">
+		<tr>
+			<td><!--Player 1-->
+				<tr>
+					<td><p align = "center"><h2>Health: </p><h2><p align = "center" id = "healthuno">0</p></td>
+					<td><p align = "center"><h2>Poison: </p><h2><p align = "center" id = "poisonuno">0</p></td>
+				</tr>
+				<tr>
+					<td align = "center"><input type = "Button" class = "plus" onClick = "AddHealth(1, 1)">
+					<input type = "Button" class = "minus"  onClick = "AddHealth(-1, 1)"></td>
+					<td align = "center"><input type = "Button" class = "plus" onClick = "AddPoison(1, 1)">
+					<input type = "Button" class = "minus"  onClick = "AddPoison(-1, 1)"></td>
+				</tr>
+			</td>
+			<td><!--Player 2-->
+				<tr>
+					<td><p align = "center"><h2>Health: </p><h2><p align = "center" id = "healthdos">0</p></td>
+					<td><p align = "center"><h2>Poison: </p><h2><p align = "center" id = "poisondos">0</p></td>
+				</tr>
+				<tr>
+					<td align = "center"><input type = "Button" class = "plus" onClick = "AddHealth(1, 2)">
+					<input type = "Button" class = "minus" onClick = "AddHealth(-1, 2)"></td>
+					<td align = "center"><input type = "Button" class = "plus" onClick = "AddPoison(1, 2)">
+					<input type = "Button" class = "minus" onClick = "AddPoison(-1, 2)"></td>
+				</tr>
+			</td>
+		</tr>
+		<tr><!--Roll The Dice (I have no idea why this is at the top.)-->
+			<p align = "center"><input type = "button" class = "dice" onClick = "RollTheDice()"></p>
+		</tr>
+	</table>
+</body>
+</html>

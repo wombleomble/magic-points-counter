@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "name": "Magic: The Gathering Point Counter",
+  "description": "A health and point tracking app for Magic: the Gathering.",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/Media/Logo16.png",
+	"32": "/Media/Logo32.png",
+    "64": "/Media/Logo64.png",
+    "128": "/Media/Logo128.png",
+    "256": "/Media/Logo256.png",
+  	"512": "/Media/Logo512.png"
+  },
+
+  "developer": {
+    "name": "William Thomas"
+  },
+  "default_locale": "en",
+  "chrome": { "navigation": true },
+  "fullscreen": "true"
+}

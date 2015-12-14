@@ -43,3 +43,13 @@ body
 	background-position: center;
 	border: none;
 }
+.reset
+{
+	background: url("../Media/Reset.png");
+	width: 70px;
+	height: 70px;
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+}

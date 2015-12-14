@@ -64,3 +64,15 @@ function RollTheDice()
 	console.log("Coin: " + coin);
 	console.log("Planar" + planar);
 }
+function Reset()
+{
+	health1 = 0;
+	health2 = 0;
+	poison1 = 0;
+	poison2 = 0;
+	
+	document.getElementById("healthuno").innerHTML = health1;
+	document.getElementById("healthdos").innerHTML = health2;
+	document.getElementById("poisonuno").innerHTML = poison1;
+	document.getElementById("poisondos").innerHTML = poison2;
+}
